@@ -1,0 +1,18 @@
+#! /usr/bin/env ruby
+
+class Deckhand < Thor
+  desc 'stage', 'Stage as a verb, as in "to stage", a release, that is.'
+  def stage(sha)
+  end
+
+  def smoke_test(...)
+  end
+
+  def promote(...)
+  end
+
+  def rollback(...)
+  end
+end
+
+Deckhand.start(ARGV)
